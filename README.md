@@ -19,6 +19,7 @@ You can change ACI tenant name in Example1/variables.tf
 
 - Set the following environment variables
 
+```txt
 ACI_USERNAME = "user"
 ACI_PASSWORD = "pass"
 or
@@ -27,6 +28,7 @@ ACI_CERT_NAME = "cert.crt" # CRT file name (as was paste to user account in ACI)
 ACI_PRIVATE_KEY = "\path_tocert\cert.key" # path to private key
 
 ACI_URL = "https://path_to_apic"
+```
 
 See <https://www.terraform.io/docs/providers/aci/index.html> for details
 
