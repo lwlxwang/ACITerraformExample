@@ -30,11 +30,11 @@ You can change the ACI tenant name in Example1/variables.tf
 * Set the following environment variables
 
 ```txt
-ACI_USERNAME = "user"
-ACI_PASSWORD = "pass"
+ACI_USERNAME = "username"
+ACI_PASSWORD = "password"
 or
-ACI_USERNAME = "username" # without domain, username only
-ACI_CERT_NAME = "cert.crt" # CRT file name (as was paste to user account in ACI)
+ACI_USERNAME = "username"
+ACI_CERT_NAME = "cert.crt" # CRT file name (as was paste to the user account in ACI)
 ACI_PRIVATE_KEY = "\path_tocert\cert.key" # path to a private key
 
 ACI_URL = "https://path_to_apic"
