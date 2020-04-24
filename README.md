@@ -24,6 +24,7 @@ The example creates:
 * Clone the repository
 
 * Edit configuration files
+
 Change the ip_path attribute used in Example1/main.tf to a path string valid in your environment.
 You can change the ACI tenant name in Example1/variables.tf
 
