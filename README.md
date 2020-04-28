@@ -3,7 +3,7 @@
 ## Example how to deploy an ACI configuration using Terraform
 
 This example doesn't deploy any useful configuration. It's purpose is to demonstrate how Cisco ACI configuration can be managed using Terraform.
-If you don't have an ACI controller you can play with, you can use the <a href="https://sandboxapicdc.cisco.com/" target="_blank">Cisco ACI Sandbox</a> (username: admin, password: ciscopsdt) which is publicly available
+If you don't have an ACI controller you can play with, you can use the [Cisco ACI Sandbox](https://sandboxapicdc.cisco.com/){:target="_blank"} (username: admin, password: ciscopsdt) which is publicly available
 
 The example creates:
 
