@@ -15,7 +15,7 @@ provider "aci" {
   #private_key = "" # $env:ACI_PRIVATE_KEY = "C:\cert\cert.key" # path to private key
   #
   # url = "" # $env:ACI_URL = "https://path"
-  insecure = true
+  # insecure = true # http
 }
 
 # Resources
