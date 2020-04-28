@@ -3,7 +3,7 @@
 ## Example how to deploy an ACI configuration using Terraform
 
 This example doesn't deploy any useful configuration. It's purpose is to demonstrate how Cisco ACI configuration can be managed using Terraform.
-If you don't have an ACI controller you can play with, you can use the Cisco ACI Sandbox (<https://sandboxapicdc.cisco.com/)> which is publicly available
+If you don't have an ACI controller you can play with, you can use the Cisco ACI Sandbox (<https://sandboxapicdc.cisco.com/>) which is publicly available
 
 The example creates:
 
@@ -22,6 +22,11 @@ The example creates:
 <https://www.terraform.io/downloads.html>
 
 * Clone the repository
+
+```txt
+git clone https://github.com/pehruby/ACITerraformExample.git
+cd ACITerraformExample
+```
 
 * Edit configuration files
 
@@ -45,6 +50,10 @@ See <https://www.terraform.io/docs/providers/aci/index.html> for details
 
 * Change directory to Example1
 
+```txt
+cd Example1
+```
+
 * Initialize Terraform
 
 ```txt
@@ -63,7 +72,7 @@ terraform plan
 terraform apply
 ```
 
-When asked to enter a value, enter "yes"
+When asked to enter a value, enter **"yes"**
 A the end some variables are printed out to demonstrate this capability.
 
 * Destroy the Terraform managed infrastructure
